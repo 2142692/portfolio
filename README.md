@@ -6,4 +6,6 @@
 
 [Animation générative](https://www.youtube.com/watch?v=ZPlIBzpbd74)
 
+
+## Modélisation d'un personnage en 3D
 ![personnage3d](medias/personnage3D.png)
