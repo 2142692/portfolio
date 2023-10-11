@@ -9,3 +9,6 @@
 
 ## Modélisation d'un personnage en 3D
 ![personnage3d](medias/personnage3D.png)
+
+## Projet Montage
+[Projet final](https://www.youtube.com/watch?v=DopjOhoVE_M)
