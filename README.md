@@ -6,4 +6,4 @@
 
 [Animation générative](https://www.youtube.com/watch?v=ZPlIBzpbd74)
 
-[personnage3d](medias/personnage3D)
+![personnage3d](medias/personnage3D.png)
