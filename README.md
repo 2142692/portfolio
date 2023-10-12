@@ -1,14 +1,14 @@
-# MON PORTFOLIO
-
-## Projet finale de fin session 4 en Animation 3D et sonorisation
-
-[Projet 3D et sonoriation session 4](https://www.youtube.com/watch?v=Ymdzi_aRClY)
-
-[Animation générative](https://www.youtube.com/watch?v=ZPlIBzpbd74)
-
-
-## Modélisation d'un personnage en 3D
-![personnage3d](medias/personnage3D.png)
-
-## Projet Montage
-[Projet final](https://www.youtube.com/watch?v=DopjOhoVE_M)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <h1>Mes projets</h1>
+    <h2>Projet 3D et sonoriation session 4</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ymdzi_aRClY?si=NrR40YVulSmvIkut" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
