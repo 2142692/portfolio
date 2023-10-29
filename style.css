@@ -78,36 +78,22 @@ body#mes_projets{
     border-radius: 10px;
   }
   .hero .swiper-pagination-bullet-active {
-    width: 30px;
-    background: #7260E6;
+    width: 20px;
+    background: rgb(215, 179, 204);
+    
   }
 
-.card-title{
-  color: #8db6d000;
-  width: 100%;
-  height: 100%;
-  text-align: center;
 
- font-size: 0px;
- 
-  position: absolute;
-  background-color: #210ab300;
+  .swiper-pagination-bullet-active {
+   
+    background: #D4CDF4;
+  }
+
+
+
+footer p{
+  color: #D4CDF4 ;
 }
-
-.card-title:hover{
-  color: rgb(243, 243, 243);
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-family: 'Cabin', sans-serif;
- font-size: 60px;
- padding-top: 20%;
-  position: absolute;
-  background-color: #7b5f86a0;
-}
-
-
-
 /*@media (min-width: 100px) {
  
 .projet{
@@ -177,6 +163,30 @@ video{
       align-self: center;
   
     }
+
+    .card-title{
+      color: #8db6d000;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    
+     font-size: 0px;
+     
+      position: absolute;
+      background-color: #210ab300;
+    }
+    
+    .card-title:hover{
+      color: #D4CDF4;;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: 'Cabin', sans-serif;
+     font-size: 30px;
+     padding-top: 23%;
+      position: absolute;
+      background-color: #7b5f86a0;
+    }
   
     .titre_portfolio{
       margin-top: 40%;
@@ -205,6 +215,7 @@ video{
       }
       
       p{
+        color: #1f031b;
         font-family: 'Cabin', sans-serif;
       }
       
@@ -224,9 +235,9 @@ video{
   
   .desc2{
     background-color: rgb(215, 179, 204);
-  padding: 5px;
+  padding: 38px;
     
-    
+
     font-size: 18px;
   }
 
@@ -257,8 +268,8 @@ video{
     background-color: rgb(215, 179, 204);
     
     padding: 38px;
-    
-    font-size: 20px;
+   
+    font-size: 18px;
   }
   
   h6.personnage_title{
@@ -267,6 +278,64 @@ video{
    margin-bottom: -5%;
    font-size: 34px;
   }
+
+  
+  h6.premiers_projets{
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  .portrait{
+    color: rgb(215, 179, 204);
+    font-size: 40px;
+    text-align: center;
+  
+  margin-top: 5%;
+  }
+
+  img.card-img-top{
+    width: 100%;
+    height: 100%;
+  }
+
+  .portrait_desc{
+    background-color: rgb(215, 179, 204);
+    
+    padding: 38px;
+    
+    font-size: 18px;
+  }
+  
+  .générique{
+    color: rgb(215, 179, 204);
+    font-size: 35px;
+    text-align: center;
+   
+  margin-top: 20%;
+  }
+  
+  .generique_film {
+  
+    text-align: center;
+   
+    
+  }
+  
+  .generique_film img{
+  
+  width: 100%;
+  height: 100%;
+    
+  }
+  
+  .generique_desc{
+    background-color: rgb(215, 179, 204);
+    
+    padding: 38px;
+    
+    font-size: 18px;
+  }
+
 
 
   }
@@ -311,6 +380,31 @@ video{
       align-self: center;
   
     }
+
+    .card-title{
+      color: #8db6d000;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    
+     font-size: 0px;
+     
+      position: absolute;
+      background-color: #210ab300;
+    }
+    
+    .card-title:hover{
+      color: #D4CDF4;;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: 'Cabin', sans-serif;
+     font-size: 60px;
+     padding-top: 23%;
+      position: absolute;
+      background-color: #7b5f86a0;
+    }
+  
   
     .titre_portfolio{
       margin-top: 15%;
@@ -404,7 +498,71 @@ video{
       font-size: 20px;
     }
     
- 
+    h6.premiers_projets{
+      margin-top: 20%;
+      text-align: center;
+    }
+    
+    .portrait{
+      color: rgb(215, 179, 204);
+      font-size: 50px;
+      text-align: center;
+    
+    margin-top: 5%;
+    }
+    
+    img.card-img-top{
+      width: 98.5%;
+      padding-bottom: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+      height: 20%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      
+    }
+
+    .portrait_desc{
+      background-color: rgb(215, 179, 204);
+      
+      padding: 38px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+    
+    .générique{
+      color: rgb(215, 179, 204);
+      font-size: 50px;
+      text-align: center;
+     
+    margin-top: 7%;
+    }
+    
+    .generique_film {
+    
+      text-align: center;
+     
+      
+    }
+    
+    .generique_film img{
+    
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    -o-object-fit: cover;
+       object-fit: cover;
+    }
+    
+    .generique_desc{
+      background-color: rgb(215, 179, 204);
+      
+      padding: 38px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
 
     }
 
@@ -448,6 +606,30 @@ align-items: center;
     justify-content: center;
     align-self: center;
 
+  }
+
+  .card-title{
+    color: #8db6d000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  
+   font-size: 0px;
+   
+    position: absolute;
+    background-color: #210ab300;
+  }
+  
+  .card-title:hover{
+    color: #D4CDF4;;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+   font-size: 60px;
+   padding-top: 23%;
+    position: absolute;
+    background-color: #7b5f86a0;
   }
 
   .titre_portfolio{
@@ -547,20 +729,6 @@ h6.personnage_title{
 }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 h6.premiers_projets{
   margin-top: 20%;
   text-align: center;
@@ -574,6 +742,18 @@ h6.premiers_projets{
 margin-top: 5%;
 }
 
+img.card-img-top{
+  width: 93%;
+  padding-bottom: 20px;
+  padding-left: 120px;
+;
+  height: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  
+}
+
+
 .portrait_desc{
   background-color: rgb(215, 179, 204);
   
@@ -581,6 +761,26 @@ margin-top: 5%;
   margin-top: 50px;
   font-size: 20px;
 }
+
+.first_projects .swiper-button-prev{
+  background-color: rgb(215, 179, 204);
+  border-radius: 60px;
+  width: 5%;
+  margin-left: 20px;
+  height: 10%;
+  color: #1f031b;
+  padding: 5px;
+  }
+
+  .first_projects .swiper-button-next{
+    background-color: rgb(215, 179, 204);
+    border-radius: 60px;
+    width: 5%;
+    margin-right: 30px;
+    height: 10%;
+    color: #1f031b;
+    padding: 5px;
+    }
 
 .générique{
   color: rgb(215, 179, 204);
@@ -598,10 +798,15 @@ margin-top: 7%;
 }
 
 .generique_film img{
-
-width: 100%;
-  
-}
+    
+    width: 94%;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    -o-object-fit: cover;
+       object-fit: cover;
+    }
 
 .generique_desc{
   background-color: rgb(215, 179, 204);
@@ -610,6 +815,42 @@ width: 100%;
   margin-top: 50px;
   font-size: 20px;
 }
+
+.generique_film .swiper-button-prev{
+  background-color: rgb(215, 179, 204);
+  border-radius: 60px;
+  width: 5%;
+  margin-left: 10px;
+  height: 10%;
+  color: #1f031b;
+  padding: 5px;
+  }
+
+  .generique_film .swiper-button-next{
+    background-color: rgb(215, 179, 204);
+    border-radius: 60px;
+    width: 5%;
+    margin-right: 10px;
+    height: 10%;
+    color: #1f031b;
+    padding: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** objectif carrière */
 

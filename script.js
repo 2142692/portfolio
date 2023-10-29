@@ -11,6 +11,25 @@ const swiperHero = new Swiper(".mySwiper", {
     },
 });
 
+const swiperSecond = new Swiper(".myOthersSwiper", {
+  direction: "horizontal",
+  slidesPerView:1,
+  spaceBetween: 30,
+  centeredSlides: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+    
+  },
+
+  navigation: {
+    el: ".swiper-pagination",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    
+  },
+});
+
 const swiperNews = new Swiper(".mySecondSwiper", {
   direction: "horizontal",
   slidesPerView: 2,
