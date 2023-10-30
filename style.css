@@ -24,6 +24,11 @@ body#mes_projets{
     border: none;
   }
   
+.logo{
+  margin-top:-20px;
+  margin-bottom:-10px;
+}
+
   li a {
     color: #D4CDF4 !important;
   }
