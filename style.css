@@ -293,6 +293,18 @@ video{
   margin-top: 5%;
   }
 
+  .first_projects .swiper-button-prev{
+    
+    color: #1f031b;
+   
+    }
+  
+    .first_projects .swiper-button-next{
+      
+      color: #1f031b;
+     
+      }
+
   img.card-img-top{
     width: 100%;
     height: 100%;
@@ -336,7 +348,42 @@ video{
     font-size: 18px;
   }
 
+  .generique_film .swiper-button-prev{
+    
+    color: #1f031b;
+    
+    }
 
+  .generique_film .swiper-button-next{
+    color: #1f031b;
+    
+    }
+
+     /** objectif carrière */
+
+     .carriere_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+      font-size: 19px;
+    }
+
+     /** objectif carrière */
+    .titre_propos{
+      font-size: 34px;
+      margin: 15%;
+    }
+    
+        
+        .propos_desc{
+          background-color: rgb(215, 179, 204);
+          text-align: center;
+          padding: 30px;
+          margin-top: 50px;
+          font-size: 19px;
+        }
+    
 
   }
   
@@ -522,6 +569,26 @@ video{
       
     }
 
+    .first_projects .swiper-button-prev{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-left: -1px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+    
+      .first_projects .swiper-button-next{
+        background-color: rgb(215, 179, 204);
+        border-radius: 60px;
+        width: 5%;
+        margin-right: -5px;
+        height: 10%;
+        color: #1f031b;
+        padding: 27px;
+        }
+
     .portrait_desc{
       background-color: rgb(215, 179, 204);
       
@@ -547,7 +614,7 @@ video{
     
     .generique_film img{
     
-    width: 100%;
+    width: 94%;
     padding-bottom: 20px;
     padding-left: 60px;
     padding-right: 60px;
@@ -563,6 +630,54 @@ video{
       margin-top: 50px;
       font-size: 20px;
     }
+
+    .generique_film .swiper-button-prev{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-left: 10px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+
+    .generique_film .swiper-button-next{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-right: 10px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+  
+
+ /** objectif carrière */
+
+ .carriere_desc{
+  background-color: rgb(215, 179, 204);
+  text-align: center;
+  padding: 70px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+ /** à propos */
+.titre_propos{
+  font-size: 60px;
+  margin: 15%;
+}
+
+    
+    .propos_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+
 
     }
 
@@ -836,28 +951,44 @@ margin-top: 7%;
     padding: 5px;
     }
 
+    /** objectif carrière */
+
+    
+
+    .carriere_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+
+    /** à propos de moi*/
+
+.titre_propos{
+  font-size: 70px;
+  margin: 15%;
 }
 
+    
+    .propos_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 30px;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /** objectif carrière */
 
-.titre_carriere{
-  margin-top: 15%;
-}
 
+.titre_carriere{
+  margin: 10%;
+}
 body#carriere{
   background-image: linear-gradient(to left, #000000, #654869);
   background-repeat: no-repeat;
@@ -865,20 +996,9 @@ body#carriere{
  
 }
 
-.carriere_desc{
-  background-color: rgb(215, 179, 204);
-  text-align: center;
-  padding: 100px;
-  margin-top: 50px;
-  font-size: 40px;
-}
 
 
-/** à propos de moi*/
 
-.titre_propos{
-  margin-top: 15%;
-}
 
 body#propos{
   background-image: linear-gradient(to left, #000000, #654869);
@@ -887,16 +1007,10 @@ body#propos{
  
 }
 
-.propos_desc{
-  background-color: rgb(215, 179, 204);
-  text-align: center;
-  padding: 100px;
-  margin-top: 50px;
-  font-size: 40px;
-}
+
 
 footer{
-margin-top: 300px;
+
   background-color: #000000;
   color: #D4CDF4 ;
   width: 100%;
