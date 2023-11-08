@@ -389,6 +389,11 @@ video{
           font-size: 19px;
         }
     
+        .Linkedin{
+          width: 10%;
+        
+        
+        }
 
   }
   
@@ -683,6 +688,11 @@ video{
       font-size: 20px;
     }
 
+    .Linkedin{
+      width: 6%;
+    
+    
+    }
 
     }
 
@@ -984,6 +994,11 @@ margin-top: 7%;
       font-size: 30px;
     }
 
+    .Linkedin{
+      width: 4%;
+    
+    
+    }
 
 }
 
@@ -1022,4 +1037,14 @@ footer{
   padding: 10px;
   font-size: 20px;
  
+}
+
+.link{
+  color: #D4CDF4 ;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: rgb(215, 179, 204); 
+  text-decoration: none;
 }
