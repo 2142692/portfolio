@@ -16,7 +16,9 @@ const swiperSecond = new Swiper(".myOthersSwiper", {
   slidesPerView:1,
   spaceBetween: 30,
   centeredSlides: true,
-
+  autoplay: {
+    delay: 5000,
+  },
   pagination: {
     el: ".swiper-pagination",
     
@@ -30,13 +32,3 @@ const swiperSecond = new Swiper(".myOthersSwiper", {
   },
 });
 
-const swiperNews = new Swiper(".mySecondSwiper", {
-  direction: "horizontal",
-  slidesPerView: 2,
-  spaceBetween: 30,
-  centeredSlides: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
