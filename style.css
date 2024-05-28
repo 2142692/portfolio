@@ -377,6 +377,45 @@ video{
     
     }
 
+    /** projets personnels*/
+    
+    .sous_titre{
+      font-family: 'Russo One', sans-serif;
+          color: rgb(215, 179, 204);
+        text-align: center;
+        
+      vertical-align: middle;
+          font-size: 30px;
+         
+          text-transform: uppercase;
+          text-shadow: 3px 3px rgb(68, 47, 120);
+    }
+
+     .personnels_desc{
+      background-color: rgb(215, 179, 204);
+      
+     
+      margin-top: 50px;
+      
+    }
+
+    .img_archives{
+      width: 95%;
+      margin-top: 15px;
+    }
+
+    .archive_desc{
+      padding: 20px;
+      font-size: 15px;
+      
+    }
+
+    .archive_swippe img{
+      margin-top: 15px;
+      width: 100%;
+      height:100%;
+    }
+
      /** objectif carrière */
 
      .carriere_desc{
@@ -691,6 +730,45 @@ video{
       padding: 27px;
       }
   
+
+/** projets personnels*/
+
+.sous_titre{
+  font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
+    
+  vertical-align: middle;
+      font-size: 30px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+}
+
+ .personnels_desc{
+  background-color: rgb(215, 179, 204);
+  
+ 
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.img_archives{
+  width: 95%;
+  margin-top: 20px;
+}
+
+.archive_desc{
+  padding:20px;
+  font-size: 17px;
+}
+
+.archive_swippe img{
+  margin-top: 20px;
+  width: 98%;
+  height:100%;
+}
+
 
  /** objectif carrière */
 
@@ -1009,6 +1087,42 @@ margin-top: 7%;
     padding: 5px;
     }
 
+/** projets personnels*/
+
+.sous_titre{
+  font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
+    
+  vertical-align: middle;
+      font-size: 30px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+}
+
+.personnels_desc{
+  background-color: rgb(215, 179, 204);
+  font-size: 20px;
+}
+
+.img_archives{
+width: 89%;
+margin-top: 40px;
+}
+
+.archive_desc{
+padding:20px;
+font-size: 19px;
+
+}
+
+.archive_swippe img{
+margin-top: 40px;
+width: 97%;
+height:97%;
+}
+
     /** objectif carrière */
 
     
@@ -1047,6 +1161,22 @@ margin-top: 7%;
 
 
 /** objectif carrière */
+
+.titre_personnels{
+  margin: 17%;
+}
+
+.sous_titre{
+  font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
+    
+  vertical-align: middle;
+      font-size: 30px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+}
 
 
 .titre_carriere{
