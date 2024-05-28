@@ -238,6 +238,13 @@ video{
     font-size: 11px;
   }
   
+  .desc1{
+    display: none;
+    padding: 5px;
+    
+    font-size: 11px;
+  }
+
   .desc2{
     background-color: rgb(215, 179, 204);
   padding: 38px;
@@ -251,6 +258,12 @@ video{
    height: 50%;
   
   } 
+
+  #vr{
+    width: 100%;
+     height: 100%;
+     
+  }
   
   .projet{
     background-color: rgb(215, 179, 204);
@@ -507,6 +520,15 @@ video{
       font-size: 12px;
     }
     
+    .desc1{
+      display: flex;
+      
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+      font-size: 12px;
+    }
+
     .desc2{
       background-color: rgb(215, 179, 204);
     padding: 5px;
@@ -521,6 +543,14 @@ video{
      margin: 50px;
     
     } 
+
+    #vr{
+      width: 450px;
+     height: 250px;
+     margin-top: 50px;
+     
+     
+    }
     
     .projet{
       background-color: rgb(215, 179, 204);
@@ -807,6 +837,13 @@ width: 50%;
   font-size: 20px;
 }
 
+.desc1{
+  display: flex;
+  width: 50%;
+  margin: 38px;
+  font-size: 18px;
+}
+
 .desc2{
   background-color: rgb(215, 179, 204);
 padding: 5px;
@@ -820,6 +857,12 @@ video{
  height: 50%;
 margin: 38px;
 } 
+
+#vr{
+  width: 650px;
+ height: 350px;
+ margin: 38px;
+}
 
 .projet{
   background-color: rgb(215, 179, 204);
